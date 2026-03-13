@@ -1,0 +1,294 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  /* 绿色+金色主题 - 皮皮虾的海洋感 */
+  --ifm-color-primary: #0ea5e9; /* 海洋蓝绿色 */
+  --ifm-color-primary-dark: #0284c7;
+  --ifm-color-primary-darker: #0369a1;
+  --ifm-color-primary-darkest: #075985;
+  --ifm-color-primary-light: #38bdf8;
+  --ifm-color-primary-lighter: #7dd3fc;
+  --ifm-color-primary-lightest: #bae6fd;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* 金色强调色 */
+  --ifm-color-secondary: #fbbf24;
+  --ifm-color-secondary-dark: #f59e0b;
+  --ifm-color-secondary-light: #fcd34d;
+
+  /* 额外的海洋色 */
+  --ifm-color-info: #0ea5e9;
+  --ifm-color-success: #10b981;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  /* 深色模式海洋绿色 */
+  --ifm-color-primary: #38bdf8; /* 亮蓝绿色 */
+  --ifm-color-primary-dark: #0ea5e9;
+  --ifm-color-primary-darker: #0284c7;
+  --ifm-color-primary-darkest: #0369a1;
+  --ifm-color-primary-light: #7dd3fc;
+  --ifm-color-primary-lighter: #bae6fd;
+  --ifm-color-primary-lightest: #e0f2fe;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  /* 深色模式金色 */
+  --ifm-color-secondary: #fcd34d;
+  --ifm-color-secondary-dark: #fbbf24;
+  --ifm-color-secondary-light: #fef3c7;
+
+  /* 深色模式海洋色 */
+  --ifm-color-info: #38bdf8;
+  --ifm-color-success: #34d399;
+}
+
+/* 火哥与皮皮虾的特色样式 */
+.pipixia-banner {
+  background: linear-gradient(135deg, #0ea5e9 0%, #10b981 50%, #fbbf24 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 20px rgba(14, 165, 233, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.pipixia-banner h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.pipixia-banner p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.fire-pipixia-section {
+  background: linear-gradient(to right, rgba(14, 165, 233, 0.1), rgba(251, 191, 36, 0.1));
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 2rem 0;
+  border-left: 4px solid #0ea5e9;
+}
+
+.fire-pipixia-signature {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  padding: 1rem;
+  background: linear-gradient(135deg, #0ea5e9 0%, #fbbf24 100%);
+  color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 15px rgba(14, 165, 233, 0.3);
+}
+
+/* 手绘风格皮皮虾形象 */
+.pipixia-mascot {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  vertical-align: middle;
+  margin-right: 1rem;
+  animation: float 3s ease-in-out infinite;
+}
+
+.pipixia-mascot-about {
+  width: 100px;
+  height: 100px;
+  animation: float 3s ease-in-out infinite;
+}
+
+.pipixia-mascot-small {
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  animation: float 3s ease-in-out infinite;
+}
+
+.pipixia-banner-content {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  min-height: 140px;
+}
+
+.pipixia-banner-about {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.pipixia-banner-text {
+  flex: 1;
+}
+
+.pipixia-banner-text h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.pipixia-banner-text h2 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+/* 手绘风格海洋波浪 */
+.ocean-waves {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: linear-gradient(90deg,
+    rgba(14, 165, 233, 0.2) 0%,
+    rgba(16, 185, 129, 0.2) 50%,
+    rgba(251, 191, 36, 0.2) 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+}
+
+/* 数据统计网格 */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.stats-grid > div {
+  background: linear-gradient(135deg, rgba(14, 165, 233, 0.1), rgba(16, 185, 129, 0.1));
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  border: 2px solid rgba(14, 165, 233, 0.2);
+  transition: all 0.3s ease;
+}
+
+.stats-grid > div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(14, 165, 233, 0.2);
+  border-color: rgba(251, 191, 36, 0.5);
+}
+
+.stats-grid > div > strong {
+  display: block;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #0ea5e9;
+}
+
+/* 学习路径 */
+.learning-path {
+  background: linear-gradient(135deg, rgba(14, 165, 233, 0.05), rgba(16, 185, 129, 0.05));
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 2rem 0;
+  border-left: 4px solid #0ea5e9;
+}
+
+.learning-path > div {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.learning-path > div::before {
+  content: attr(data-stage);
+  position: absolute;
+  left: -2rem;
+  top: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: linear-gradient(135deg, #0ea5e9, #10b981);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+/* 受众网格 */
+.audience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.audience-grid > div {
+  background: linear-gradient(135deg, rgba(14, 165, 233, 0.08), rgba(251, 191, 36, 0.08));
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.audience-grid > div:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(14, 165, 233, 0.15);
+}
+
+.audience-grid > div > strong {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+}
+
+/* 资源网格 */
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.resources-grid > div {
+  background: rgba(14, 165, 233, 0.05);
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(14, 165, 233, 0.2);
+}
+
+.resources-grid > div > strong {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  color: #0ea5e9;
+}
+
+/* 咨询和联系框 */
+.consultation-box,
+.contact-box {
+  background: linear-gradient(135deg, rgba(14, 165, 233, 0.1), rgba(251, 191, 36, 0.1));
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 2rem 0;
+  border: 2px solid rgba(14, 165, 233, 0.2);
+}
+
+.contact-box {
+  text-align: center;
+}
+
+.contact-box > strong {
+  font-size: 1.25rem;
+  display: block;
+  margin-bottom: 1.5rem;
+}

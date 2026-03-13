@@ -1,0 +1,27 @@
+{
+  "id": "skills/index",
+  "title": "技能系统",
+  "description": "Skills 是 OpenClaw 的插件系统，让你可以轻松扩展助手功能。",
+  "source": "@site/docs/skills/index.md",
+  "sourceDirName": "skills",
+  "slug": "/skills/",
+  "permalink": "/docs/skills/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/openclaw/openclaw-zh-docs/tree/main/docs/skills/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "快速开始",
+    "permalink": "/docs/quick-start/"
+  },
+  "next": {
+    "title": "关于我们",
+    "permalink": "/docs/about"
+  }
+}

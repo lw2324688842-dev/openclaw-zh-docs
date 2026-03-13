@@ -1,0 +1,27 @@
+{
+  "id": "day-tutorial/day-2",
+  "title": "Day 2: 基础配置",
+  "description": "📋 学习目标",
+  "source": "@site/docs/7-day-tutorial/day-2.md",
+  "sourceDirName": "7-day-tutorial",
+  "slug": "/day-tutorial/day-2",
+  "permalink": "/docs/day-tutorial/day-2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/openclaw/openclaw-zh-docs/tree/main/docs/7-day-tutorial/day-2.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Day 1: 快速入门",
+    "permalink": "/docs/day-tutorial/day-1"
+  },
+  "next": {
+    "title": "Day 3: 工具和技能",
+    "permalink": "/docs/day-tutorial/day-3"
+  }
+}

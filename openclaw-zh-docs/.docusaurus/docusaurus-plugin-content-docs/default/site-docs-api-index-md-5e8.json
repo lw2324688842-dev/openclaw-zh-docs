@@ -1,0 +1,27 @@
+{
+  "id": "api/index",
+  "title": "API 参考",
+  "description": "OpenClaw 提供了丰富的 API 用于高级集成和自定义开发。",
+  "source": "@site/docs/api/index.md",
+  "sourceDirName": "api",
+  "slug": "/api/",
+  "permalink": "/docs/api/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/openclaw/openclaw-zh-docs/tree/main/docs/api/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Day 7: 进阶开发",
+    "permalink": "/docs/day-tutorial/day-7"
+  },
+  "next": {
+    "title": "核心概念",
+    "permalink": "/docs/concepts/"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "permalink": "/blog/welcome",
+  "editUrl": "https://github.com/openclaw/openclaw-zh-docs/tree/main/blog/2024-03-13-welcome.md",
+  "source": "@site/blog/2024-03-13-welcome.md",
+  "title": "欢迎来到 OpenClaw 中文教程",
+  "description": "欢迎来到 OpenClaw 中文入门教程！",
+  "date": "2024-03-13T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "公告",
+      "permalink": "/blog/tags/公告"
+    },
+    {
+      "inline": true,
+      "label": "教程",
+      "permalink": "/blog/tags/教程"
+    }
+  ],
+  "readingTime": 0.92,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "OpenClaw 中文社区",
+      "title": "OpenClaw 中文教程团队",
+      "url": "https://openclaw.ai",
+      "imageURL": "https://github.com/openclaw.png",
+      "key": "openclaw",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "welcome",
+    "title": "欢迎来到 OpenClaw 中文教程",
+    "authors": [
+      "openclaw"
+    ],
+    "tags": [
+      "公告",
+      "教程"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
+  }
+}

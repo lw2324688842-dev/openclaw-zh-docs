@@ -1,0 +1,27 @@
+{
+  "id": "day-tutorial/day-4",
+  "title": "Day 4: 记忆和上下文",
+  "description": "📋 学习目标",
+  "source": "@site/docs/7-day-tutorial/day-4.md",
+  "sourceDirName": "7-day-tutorial",
+  "slug": "/day-tutorial/day-4",
+  "permalink": "/docs/day-tutorial/day-4",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/openclaw/openclaw-zh-docs/tree/main/docs/7-day-tutorial/day-4.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Day 3: 工具和技能",
+    "permalink": "/docs/day-tutorial/day-3"
+  },
+  "next": {
+    "title": "Day 5: 自动化和任务",
+    "permalink": "/docs/day-tutorial/day-5"
+  }
+}

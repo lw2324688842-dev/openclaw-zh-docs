@@ -1,0 +1,27 @@
+{
+  "id": "concepts/index",
+  "title": "核心概念",
+  "description": "了解 OpenClaw 的核心概念，帮助你更好地使用和定制 AI 助手。",
+  "source": "@site/docs/concepts/index.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/",
+  "permalink": "/docs/concepts/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/openclaw/openclaw-zh-docs/tree/main/docs/concepts/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "API 参考",
+    "permalink": "/docs/api/"
+  },
+  "next": {
+    "title": "配置指南",
+    "permalink": "/docs/configuration/"
+  }
+}
